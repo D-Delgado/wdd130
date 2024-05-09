@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&family=Noto+Sans+JP:wght@100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main img {
+    float: right;
+}
+
 body {
 	font-family: var(--paragraph-font);
 	max-width: 960px;
@@ -57,13 +67,24 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+aside {
+    width: 20em;
+    text-align: center;
+}
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px; 
+}
 
+/* Class Selectors */
 
-
-
-
-
-
-
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
 
