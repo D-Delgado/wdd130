@@ -28,7 +28,7 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 5;
 }
 
 main {
@@ -36,7 +36,7 @@ main {
 }
 
 main img {
-    width: 150px;
+    width: 250px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -57,18 +57,18 @@ aside {
 }
 
 aside h2 {
-    top: 47px;
-    left: 150px;   
+    top: 5px;
+    left: 130px;   
     position: absolute;
 }
 
 aside img {
-    width: 200px;
+    width: 255px;
     height: auto;
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 20px;
     border-top: 1px solid #000;
     text-align: center;
 }
@@ -78,7 +78,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
-    padding: 1rem;
+    padding: 2rem;
     background-color: #ddd;
     color: #000;
 }
