@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    max-width: 90rem;
+}
+
+:root {
+    --primary-color: #0A0A6B;
+    --secondary-color: #FFFFFF;
+    --accent1-color: #272A73;
+    --accent2-color: #BCBDD0;
+
+    --heading-font: Freeman, serif;
+    --paragraph-font: Noto, serif;
+
+    --nav-background-color: #7B87A3;
+    --nav-link-color: #617073;
+    --nav-hover-link-color: #7A93AC;
+    --nav-hover-background-color: #92BCEA;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+p {
+    padding: 25px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.hero div {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.hero img {
+    display: block;
+    width: 115%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    background-color: var(--accent1-color);
+    color: #ebe8f8;
+    text-align: center;
+    opacity: 90%;
+}
+
+img {
+    border: 1px var(--accent1-color);
+    padding: 5px;
+}
+
+.hero article {
+    position: absolute;
+    top: 995px;
+    width: 100%;
+    background-color: var(--accent2-color);
+    opacity: 90%;
+}
+
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    padding-top: 5px;
+
+}
