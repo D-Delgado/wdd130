@@ -151,7 +151,8 @@ figure {
 
 figcaption {
     text-align: center;
-    font-size: small;
+    font-size: large;
+    
 }
 
 body {
@@ -168,4 +169,165 @@ body {
     width: 200px;
     height: auto;
     align-self: center;
+}
+
+.adventure {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.adventure h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    grid-column: span 5;
+    text-align: center;
+}
+
+.adventure figure {
+    margin: 0;
+}
+
+.adventure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.adventure figcaption {
+    text-align: center;
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    margin-top: 5px;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--accent1-color);
+    font-size: 1.3em;
+}
+
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+    color: var(--accent1-color);
+    font-size: 1.1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 0 auto;
+    background-color: #7A93AC ;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: var(--secondary-color);
+}
+
+footer .sociallinks a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .sociallinks a img {
+    width: 24px;
+    height: 24px;
+}
+
+footer .sociallinks a {
+    text-decoration: none;
+}
+
+footer .sociallinks {
+    justify-content: end;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: var(--nav-background-color);
+    color: white;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: var(--accent1-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta a:hover {
+    background-color: var(--accent2-color);
+}
+
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
 }
