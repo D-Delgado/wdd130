@@ -85,6 +85,10 @@ aside h2 {
     position: absolute;
 }
 
+iframe {
+    margin: 0 auto;
+}
+
 /* Class Selectors */
 
 .box {
@@ -94,4 +98,3 @@ aside h2 {
     background-color: #ddd;
     color: #000;
 }
-
