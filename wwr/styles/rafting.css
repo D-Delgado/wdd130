@@ -322,12 +322,3 @@ footer .sociallinks {
 .cta a:hover {
     background-color: var(--accent2-color);
 }
-
-iframe {
-    overflow-clip-margin: content-box !important;
-    overflow: clip !important;
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-}
